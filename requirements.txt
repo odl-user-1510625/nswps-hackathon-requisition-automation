@@ -6,6 +6,6 @@ azure-functions
 pandas
 numpy
 azure-storage-blob
-azure-ai-openai
+openai>=1.12.0
 azure-identity
 python-dotenv

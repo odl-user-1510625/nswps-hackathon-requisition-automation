@@ -5,7 +5,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import json
 from azure.storage.blob import BlobServiceClient
-from azure.ai.openai import AzureOpenAI
+from openai import AzureOpenAI
 from azure.identity import DefaultAzureCredential
 import os
 import io
