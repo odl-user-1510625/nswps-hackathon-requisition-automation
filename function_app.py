@@ -17,7 +17,7 @@ def get_historical_data():
     """Load historical data from Azure Blob Storage."""
     connection_string = os.environ["AzureWebJobsStorage"]
     container_name = "drug-orders"
-    blob_name = "historical_orders.csv"
+    blob_name = "synthetic_requisitions.csv"
     
     try:
         blob_service_client = BlobServiceClient.from_connection_string(connection_string)
