@@ -12,6 +12,7 @@ import io
 
 app = func.FunctionApp()
 
+# Get data
 def get_historical_data():
     """Load historical data from Azure Blob Storage."""
     connection_string = os.environ["AzureWebJobsStorage"]
